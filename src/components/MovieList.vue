@@ -40,7 +40,11 @@ const closeModal = () => {
   <div class="modal" @click="closeModal">
     <div class="modal_plot"></div>
   </div>
-  <div v-if="!movies"></div>
+  <div v-if="!movies">
+    <div class="bono">
+      <img class="bono_img" src="../img/bono.png" alt="" />
+    </div>
+  </div>
   <div v-else-if="movies.length === 0">검색 결과가 없습니다!</div>
   <div v-else class="movies" @click="openDetail">
     <div

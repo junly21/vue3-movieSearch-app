@@ -125,6 +125,14 @@ input {
   color: #ddd;
 }
 
+.bono {
+  margin-top: 32%;
+  margin-left: 45%;
+}
+.bono_img {
+  width: 1000px;
+  height: auto;
+}
 html,
 body {
   margin: 0;
