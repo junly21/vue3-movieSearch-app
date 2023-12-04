@@ -126,13 +126,14 @@ input {
 }
 
 .bono {
-  margin-top: 32%;
-  margin-left: 45%;
+  margin-top: 15%;
+  margin-left: 25%;
 }
 .bono_img {
-  width: 1000px;
+  width: 500px;
   height: auto;
 }
+
 html,
 body {
   margin: 0;
