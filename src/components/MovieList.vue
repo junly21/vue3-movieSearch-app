@@ -42,7 +42,7 @@ const closeModal = () => {
   </div>
   <div v-if="!movies">
     <div class="bono">
-      <img src="../img/bono.png" alt="" />
+      <img class="bono_img" src="../img/bono.png" alt="" />
     </div>
   </div>
   <div v-else-if="movies.length === 0">검색 결과가 없습니다!</div>

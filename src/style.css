@@ -128,9 +128,11 @@ input {
 .bono {
   margin-top: 32%;
   margin-left: 45%;
-  /* background-color: black; */
 }
-
+.bono_img {
+  width: 1000px;
+  height: auto;
+}
 html,
 body {
   margin: 0;
