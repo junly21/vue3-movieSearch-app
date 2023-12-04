@@ -16,3 +16,4 @@ const searchMovie = async (title: string) => {
   <SearchBar @submit-title="searchMovie" />
   <MovieList :movies="data" />
 </template>
+<!-- <router-view></router-view> -->
