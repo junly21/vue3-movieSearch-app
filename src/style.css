@@ -125,6 +125,12 @@ input {
   color: #ddd;
 }
 
+.bono {
+  margin-top: 32%;
+  margin-left: 45%;
+  /* background-color: black; */
+}
+
 html,
 body {
   margin: 0;
