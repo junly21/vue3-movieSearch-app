@@ -7,6 +7,7 @@ export interface Movie {
 }
 
 export const fetchMovie = async (title: string): Promise<Movie[]> => {
+  console.log('hello')
   const res = await fetch(`/api/list?searchKeyword=${title}`)
 
   if (res.status === 400) {

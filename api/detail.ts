@@ -2,7 +2,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node'
 
 export const fetchDetail = async (id: string) => {
   const res = await fetch(
-    `https://omdbapi.com?apikey=8488a957&i=${id}&plot=full`
+    `https://omdbapi.com?apikey=7035c60c&i=${id}&plot=full`
   )
 
   const result = await res.json()

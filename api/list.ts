@@ -17,9 +17,8 @@ interface APIResponse {
 }
 
 export const fetchMovie = async (title: string): Promise<Movie[]> => {
-  const res = await fetch(
-    `http://www.omdbapi.com/?i=tt3896198&apikey=8488a957&s=${title}`
-  )
+  console.log('eheheh')
+  const res = await fetch(`http://www.omdbapi.com/?apikey=7035c60c&s=${title}`)
   const result = await res.json() // { 3개 필드 있음 }
 
   // imdb 쪽에서 어떤 이유로든 배열이 오지 않았음
